@@ -97,5 +97,4 @@ public class DataRestTest {
         mvc.perform(delete("/api/userAccounts")).andExpect(status().isNotFound());
         mvc.perform(head("/api/userAccounts")).andExpect(status().isNotFound());
     }
-
 }
